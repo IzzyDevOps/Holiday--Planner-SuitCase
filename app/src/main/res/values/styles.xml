@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Custom SuitCase theme -->
+    <style name="Theme.SuitCase" parent="AppTheme">
+        <!-- Customize SuitCase theme attributes -->
+        <item name="colorPrimary">@color/suitCaseColorPrimary</item>
+        <item name="colorPrimaryDark">@color/suitCaseColorPrimaryDark</item>
+        <item name="colorAccent">@color/suitCaseColorAccent</item>
+        <!-- Add other SuitCase theme attributes as needed -->
+    </style>
+
+    <style name="LoginLinkStyle">
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+</resources>

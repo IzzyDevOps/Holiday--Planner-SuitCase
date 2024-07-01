@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="281dp"
+    android:height="658dp"
+    android:viewportWidth="281"
+    android:viewportHeight="658">
+    <path
+        android:pathData="M-1.5,550.5V91.5H173.5V550.5H-1.5Z"
+        android:strokeWidth="215"
+        android:fillColor="#FEEFEF">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="-97.5"
+                android:startY="-142.5"
+                android:endX="260.35"
+                android:endY="179.16"
+                android:type="linear">
+                <!-- Change the colors to light red shades -->
+                <item android:offset="0" android:color="#FFD2E1E5"/> <!-- Light Red -->
+                <item android:offset="1" android:color="#FFE5B7C2"/> <!-- Lighter Red -->
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
+
+

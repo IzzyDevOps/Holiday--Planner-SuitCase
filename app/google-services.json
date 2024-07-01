@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716857296495",
+    "project_id": "suitcase-c6e5c",
+    "storage_bucket": "suitcase-c6e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716857296495:android:14fff5c05a55c2fa232f9a",
+        "android_client_info": {
+          "package_name": "com.example.suitcase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf21gWyR-A67gAzpygXpWQSiw_whQ4ImU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

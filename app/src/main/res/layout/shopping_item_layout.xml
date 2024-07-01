@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:background="#D81B60">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="85dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/baseline_delete_24" />
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="165dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="-100dp"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/layoutDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:padding="10dp">
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textViewPrice"
+                android:layout_alignEnd="@+id/textViewPrice"
+                android:layout_marginTop="-61dp"
+                android:layout_marginEnd="-194dp"
+                android:text="Purchased" />
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="65dp"
+                android:layout_height="39dp"
+                android:layout_alignEnd="@+id/checkBox"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="37dp"
+                android:layout_marginEnd="21dp"
+                android:src="@drawable/baseline_share_24"
+                android:background="@drawable/roundcheck" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundshape"
+                android:scaleType="centerCrop" />
+
+            <TextView
+
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imageView"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:id="@+id/textViewDescription"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewName"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:textColor="#555353"
+                android:textSize="12sp" />
+
+
+            <TextView
+
+                android:id="@+id/textViewPrice"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="3dp"
+
+                android:layout_marginBottom="144dp"
+
+                android:layout_toRightOf="@+id/imageView"
+
+                android:textColor="#125503"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

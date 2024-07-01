@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e43f3f</color>
+    <color name="colorPrimaryDark">#cc1d1d</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRed">#bc0601</color>
+    <color name="colorDarkRed">#86110e</color>
+    <color name="bgStart">#f3f3f3</color>
+    <color name="bgEnd">#dbdbdb</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorblack">#FF000000</color>
+    <color name="colorwhite">#FFFFFFFF</color>
+    <color name="colorblue">#0000FF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#D3E5F1</color>
+    <color name="light_pink">#FFFFCDD2</color>
+    <color name = "pink_new">#F8D1DE</color>
+    <color name="lightRedTint">#FFD2E1E5</color>
+    <color name="red">#FF0000</color>
+    <color name="lightRed">#FFD2E1E5</color>
+
+
+    <!-- Colors for SuitCase theme -->
+    <color name="suitCaseColorPrimary">#FF5722</color>
+    <color name="suitCaseColorPrimaryDark">#E64A19</color>
+    <color name="suitCaseColorAccent">#FF5252</color>
+
+
+</resources>
