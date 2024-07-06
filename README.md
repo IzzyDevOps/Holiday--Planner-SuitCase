@@ -1,9 +1,12 @@
-Suitcase
+#1 Suitcase
+
 SuitCase is a mobile application developed for Android. The app serves as a task management tool that allows users to create, update, delete, and manage tasks efficiently. It features a user-friendly interface and integrates various functionalities to enhance the task management experience.
 
 Screenshots
 
-Features![uploaded items](https://github.com/IzzyDevOps/Holiday--Planner-SuitCase/assets/147671694/876b3c9b-2f18-4110-8a63-0f32afcdcde4)
+
+
+Features
 
 User Authentication
 
